@@ -17,9 +17,9 @@
 LOCAL_PATH := device/samsung/on5ltetmo
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lineage_on5ltetmo.mk
+    $(LOCAL_PATH)/aosp_on5ltetmo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_on5ltetmo-user \
-    lineage_on5ltetmo-userdebug \
-    lineage_on5ltetmo-eng
+    aosp_on5ltetmo-user \
+    aosp_on5ltetmo-userdebug \
+    aosp_on5ltetmo-eng

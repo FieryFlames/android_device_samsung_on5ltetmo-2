@@ -21,11 +21,11 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit common Lineage phone.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common AOSP phone.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_on5ltetmo
+PRODUCT_NAME := aosp_on5ltetmo
 PRODUCT_DEVICE := on5ltetmo
 PRODUCT_MODEL := SM-G550T
 PRODUCT_BRAND := samsung
